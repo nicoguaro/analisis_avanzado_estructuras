@@ -1,0 +1,16 @@
+name: estructuras_avanzadas
+channels:
+ - conda-forge
+ - default
+dependencies:
+ - conda
+ - python>=3.8
+ - pip
+ - jupyterlab
+ - numpy
+ - scipy
+ - matplotlib
+ - sympy
+ - pip:
+   - ipympl
+   - continuum_mechanics
